@@ -1,0 +1,20 @@
+# Build output
+bin/
+obj/
+
+# Local reference clones used during development
+_refs/
+
+# IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Generated server files
+tshock/
+ServerPlugins/
