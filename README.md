@@ -33,10 +33,6 @@ dotnet build AutoRegisterLogin\AutoRegisterLogin.csproj -c Release
 
 将编译得到的 `AutoRegisterLogin.dll` 复制到 TShock 服务器的 `ServerPlugins` 目录，然后重启服务器。
 
-## 许可证
-
-当前仓库还没有添加许可证文件。如果你准备公开发布并允许别人复用代码，建议补充 `LICENSE`。
-
 ---
 
 English:
@@ -72,6 +68,3 @@ The compiled plugin is generated at:
 
 Copy `AutoRegisterLogin.dll` into your TShock server's `ServerPlugins` directory and restart the server.
 
-## License
-
-No license file has been added yet. Add one before making the repository public if you want others to reuse the code.
