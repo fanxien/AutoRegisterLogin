@@ -22,7 +22,7 @@ public sealed class AutoRegisterLoginPlugin : TerrariaPlugin
 
     public override string Name => "AutoRegisterLogin";
 
-    public override string Author => "OpenAI";
+    public override string Author => "槐序二七";
 
     public override string Description => "Automatically registers new players and logs them in with UUID-aware checks.";
 
