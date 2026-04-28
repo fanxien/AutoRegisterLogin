@@ -17,18 +17,6 @@
 - 已有账号在 UUID 匹配时自动登录
 - 支持 `/reload` 重载配置
 
-## 构建
-
-```powershell
-dotnet build AutoRegisterLogin\AutoRegisterLogin.csproj -c Release
-```
-
-## 输出文件
-
-编译后的插件位于：
-
-`AutoRegisterLogin/bin/Release/net9.0/AutoRegisterLogin.dll`
-
 ## 安装方法
 
 将编译得到的 `AutoRegisterLogin.dll` 复制到 TShock 服务器的 `ServerPlugins` 目录，然后重启服务器。
@@ -51,18 +39,6 @@ English:
 - Binds player UUIDs during registration
 - Automatically logs in existing players when the UUID matches
 - Supports `/reload` for config reloads
-
-## Build
-
-```powershell
-dotnet build AutoRegisterLogin\AutoRegisterLogin.csproj -c Release
-```
-
-## Output
-
-The compiled plugin is generated at:
-
-`AutoRegisterLogin/bin/Release/net9.0/AutoRegisterLogin.dll`
 
 ## Install
 
