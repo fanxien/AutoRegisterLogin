@@ -231,15 +231,11 @@ public sealed class AuthenticationService
             player.PlayerData.RestoreCharacter(player);
         }
 
-        if (player.HasPermission(Permissions.ignorestackhackdetection))
-        {
-            player.IsDisabledForStackDetection = false;
-        }
+        player.IsDisabledForStackDetection =
+            player.HasPermission(Permissions.ignorestackhackdetection);
 
-        if (player.HasPermission(Permissions.usebanneditem))
-        {
-            player.IsDisabledForBannedWearable = false;
-        }
+        player.IsDisabledForBannedWearable =
+            player.HasPermission(Permissions.usebanneditem);
 
         if (!string.IsNullOrWhiteSpace(player.UUID))
         {
