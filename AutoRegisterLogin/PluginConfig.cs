@@ -12,9 +12,6 @@ public sealed class PluginConfig
     public bool SendPlayerMessages { get; set; } = true;
     public string DefaultGroupName { get; set; } = "default";
     public int PendingApprovalTimeoutHours { get; set; } = 72;
-    public bool AutoLoginExistingPlayers { get; set; } = true;
-    public bool RequireMatchingUuidForExistingAccounts { get; set; } = false;
-    public int GeneratedPasswordBytes { get; set; } = 32;
 
     [JsonIgnore]
     public static string ConfigPath => Path.Combine(TShock.SavePath, "AutoRegisterLogin.json");
